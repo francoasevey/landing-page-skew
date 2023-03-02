@@ -30,6 +30,7 @@ header .subtitulo{
     font-size: 42px;
     font-weight: 300;
     margin-bottom: 32px;
+    font-family: 'Rubik Iso', cursive;
 }
 header .boton{
     display: inline-block;
