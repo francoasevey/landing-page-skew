@@ -25,12 +25,14 @@ header .textos{
 header .titulo{
     font-size: 95px;
     font-family: 'Tilt Prism', cursive;
+    text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
 }
 header .subtitulo{
     font-size: 42px;
     font-weight: 300;
     margin-bottom: 32px;
     font-family: 'Rubik Iso', cursive;
+    text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
 }
 header .boton{
     display: inline-block;
