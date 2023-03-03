@@ -203,11 +203,14 @@ header .boton:hover{
 .titulo-patrocinadores{
     font-size: 56px;
     margin-top: 48px;
+    font-family: 'Tilt Warp', cursive;
+
 }
 .subtitulo-patrocinadores{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     margin-bottom: 64px;
+    font-family: 'Tilt Warp', cursive;
 }
 .clientes{
     display: flex;
@@ -231,9 +234,11 @@ footer{
     text-align: center;
     font-weight: 400;
     font-size: 56px;
+    font-family: 'Tilt Warp', cursive;
+
 }
 .subtitulo-footer{
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 64px;
 }
 form{
