@@ -271,7 +271,6 @@ footer{
     font-weight: 400;
     font-size: 56px;
     font-family: 'Tilt Warp', cursive;
-
 }
 .subtitulo-footer{
     font-size: 20px;
@@ -284,19 +283,25 @@ form{
     flex-wrap: wrap;
     margin: auto;
 }
-input[type="text"], input[type="email"]{
+input[type="text"], input[type="email"], textarea[name=""]{
     display: inline-block;
     width: 48%;
     padding: 13px;
     border: none;
     color: #fff;
-    font-family: 'open sans';
+    font-family: 'Mynerve', cursive;
+    font-size: 18px;
     background: rgb(37, 37, 33, .7);
     margin-bottom: 16px;
     border-top: 5px solid  rgb(37, 37, 33, .7);
+    border-radius: 5px;
+}
+input[type="text"]:hover, input[type="email"]:hover, textarea[name=""]:hover{
+    box-shadow:rgb(253, 253, 253) 0 0.0em 0.60em;
+    border: 2px solid #ffffff;
 }
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
-    border-top: 5px solid  rgb(255, 255, 255, 0.7);
+    border-top: 5px solid  rgba(0, 68, 255, 0.7);
 }
 textarea{
     display: block;
@@ -316,9 +321,17 @@ input[type="submit"]{
     display: inline-block;
     padding: 13px;
     border: none;
-    color: #fff;
-    background: rgb(37, 37, 33, .7);
     width: 96px;
+    border-radius: 10px;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 20px;
+    background-color: rgb(48, 81, 200);
+    color: #ffffff;
+    box-shadow:rgb(253, 253, 253) 0 0.0em 0.60em;
+    border: 2px solid #ffffff;
+}
+input[type="submit"]:hover{
+    text-shadow:  rgb(255, 255, 255) 0 0.0em 0.40em;
 }
 @media screen and (max-width:900px) {
     .card{
